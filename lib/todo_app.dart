@@ -16,7 +16,7 @@ class TodoApp extends StatelessWidget {
     return MaterialApp(
         title: "Flutter Todo App.",
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange, primary: Colors.deepOrange, onSecondary: Colors.amber),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange, primary: Colors.deepOrange, onSecondary: Colors.white),
         ),
         home: BlocProvider(
           create: (_) => TodoViewModelCubit(TodoRepository())..fetchTodos(),
@@ -45,6 +45,7 @@ class _TodoHomeState extends State<TodoHome> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        foregroundColor: Theme.of(context).colorScheme.onSecondary,
         title: Text(widget.title),
         actions: [
           IconButton(

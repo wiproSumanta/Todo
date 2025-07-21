@@ -10,6 +10,8 @@ class TodoAbout extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        foregroundColor: Theme.of(context).colorScheme.onSecondary,
       ),
       body: Center(
         child: const Text("ToDo's"),
