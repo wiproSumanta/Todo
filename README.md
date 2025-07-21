@@ -17,3 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Demo:
 ![video](Screen_recording_20250721_151553.mp4)
+<video src="./Screen_recording_20250721_151553.mp4" controls preload></video>
