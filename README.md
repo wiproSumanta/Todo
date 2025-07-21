@@ -16,5 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## Demo:
-![video](Screen_recording_20250721_151553.mp4)
-<video src="./Screen_recording_20250721_151553.mp4" controls preload></video>
+[![](https://github.com/wiproSumanta/Todo/blob/main/Screenshot_20250721_155025.png)](https://github.com/wiproSumanta/Todo/blob/main/Screen_recording_20250721_151553.mp4)
